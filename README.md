@@ -1,6 +1,7 @@
 This project was a Coding challenge submitted to PeopleFluent and created using _create-react-app_
 
-Live demo of application at [Calculator]("https://react-redux-calculator.netlify.com/")
+Live demo of application at
+https://react-redux-calculator.netlify.com/
 
 ## Installation
 
