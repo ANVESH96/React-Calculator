@@ -41,6 +41,10 @@ State Mangament plays a major role in SPA which were consumed by large number of
 
 Redux is one such state management tool which is tightly coupled with React architecture. Features such as Store which has all the states and immutability of state objects makes Redux more suitable for React applications.
 
+![Redux Architecture](https://res.cloudinary.com/practicaldev/image/fetch/s--fCDvEpjd--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.stack.imgur.com/LNQwH.png)
+
+The above architecture is how Redux works with React.
+
 ### CSS3
 
 Traditional CSS styling method is used for this application as styling elements are very minimal and implementing CSS Pre-processors ,Server side rendering techniques are expensive operations which will serve better for complex and large scale applications.
