@@ -9,21 +9,6 @@ import {Dualoperator} from "../actions/dualoperator"
 import "../styles/main.css"
 class Main extends Component{
 
-    // Calculate Function to generate calculations
-    // const calculate =() =>{
-    //     try {
-    //         // this.setState({
-    //         //     // eslint-disable-next-line
-    //         //     result: (eval(this.state.result) || "" ) + ""
-    //         // })
-    //     } catch (e) {
-    //         // this.setState({
-    //         //     result: "error"
-    //         // })
-
-    //     }
-    // };
-
     // //OnClick() function to be executed when user clicks a button
     onClick =(button)=>{
 

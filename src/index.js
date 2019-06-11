@@ -6,7 +6,9 @@ import rootReducer from "./reducers/index";
 import { Provider } from "react-redux";
 import * as serviceWorker from './serviceWorker';
 
+//create Redux store
 const store = createStore(rootReducer);
+
 ReactDOM.render(
     <Provider store={store}>
     <App />
