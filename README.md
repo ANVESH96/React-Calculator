@@ -21,8 +21,7 @@ Once the packages were installed in the form of node_modules in project director
 npm run start
 ```
 
-Access the application in your local browser at
-[http://localhost:3000/]("http://localhost:3000/")
+Access the application in your local browser at http://localhost:3000/
 
 ## Technology Stack
 
