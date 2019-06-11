@@ -7,6 +7,7 @@ const initialState={
 const calculatorReducer =(state=initialState,action)=>{
 switch(action.type){
     case "CALCULATE":
+    console.log(state.result)
     return {
         ...state,
         result: evalfunction(state.result)
