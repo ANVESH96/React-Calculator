@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 import {connect} from "react-redux"
 import PropTypes from 'prop-types'
-// import  "../styles/result.css"
+import  "../styles/result.css"
 
 class ResultComponent extends Component {
     render() {
         return (
             <div className="result">
-                <p>{this.props.calresult.result}</p>
+                <h3>{this.props.calresult.result}</h3>
             </div>
     )
     }

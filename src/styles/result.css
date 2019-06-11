@@ -1,0 +1,15 @@
+.result {
+  height: 100px;
+  width: 100%;
+  background-color: rgba(50, 30, 0, 0.8);
+}
+
+.result p {
+  font-size: 40px;
+  margin: 5px;
+  float: right;
+  color: white;
+}
+h3 {
+  text-align: center;
+}

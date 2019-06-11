@@ -1,6 +1,6 @@
 import React,{Fragment} from 'react'
 import PropTypes from 'prop-types'
-
+import "../styles/keypad.css"
 const KeypadLayout = props => {
     return (
         <Fragment>
