@@ -6,6 +6,7 @@ import {Reset} from "../actions/reset"
 import {Display} from "../actions/display"
 import {Calculate} from "../actions/calcuate"
 import {Dualoperator} from "../actions/dualoperator"
+import "../styles/main.css"
 class Main extends Component{
 
     // Calculate Function to generate calculations

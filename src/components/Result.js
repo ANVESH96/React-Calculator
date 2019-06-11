@@ -7,7 +7,7 @@ class ResultComponent extends Component {
     render() {
         return (
             <div className="result">
-                <h3>{this.props.calresult.result}</h3>
+                <p>{this.props.calresult.result}</p>
             </div>
     )
     }
