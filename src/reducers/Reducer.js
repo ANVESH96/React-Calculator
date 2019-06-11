@@ -10,7 +10,8 @@ switch(action.type){
     console.log(state.result)
     return {
         ...state,
-        result: evalfunction(state.result)
+        result: evalfunction(state.result),
+        dualoperator:null
     }
     case "RESET":
     return{
@@ -26,12 +27,20 @@ switch(action.type){
                 dualoperator:1
             }   
     }
-    else{
+    else if(state.dualoperator === 1){
         return{
             ...state,
             result:(state.result).slice(0,-1)+"-",
-            dualoperator:null
+            dualoperator:0
         }
+    }
+    else{
+        return{
+            ...state,
+            result:(state.result).slice(0,-1)+action.value,
+            dualoperator:1
+        }
+
     }
     case "DISPLAY":
     return{
